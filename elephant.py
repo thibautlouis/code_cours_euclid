@@ -36,6 +36,6 @@ def elephant(t, p1, p2, p3, p4, p5):
 
     return x,y
 
-x, y = elephant(np.linspace(0,2*np.pi,1000), p1, p2, p3, p4, p5)
-pylab.plot(y,-x,'.')
+x, y = elephant(np.linspace(0, 2 * np.pi, 1000), p1, p2, p3, p4, p5)
+pylab.plot(y, -x, '.')
 pylab.show()
